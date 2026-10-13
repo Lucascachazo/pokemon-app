@@ -3,25 +3,33 @@
     "name": "pokedex-app",
     "slug": "pokedex-app",
     "version": "1.0.0",
+    "platforms": ["ios", "android", "web"],
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/pokemon-app-icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/pokemon-splash.png",
+          "imageWidth": 250,
+          "resizeMode": "contain",
+          "backgroundColor": "#FFF4CC"
+        }
+      ]
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/pokemon-app-icon.png",
+        "backgroundColor": "#FFF4CC"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.pokedexapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
