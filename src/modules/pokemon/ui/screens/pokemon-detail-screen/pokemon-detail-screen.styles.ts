@@ -1,0 +1,220 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  screen: {
+    flex: 1,
+    backgroundColor: '#f5f6fa',
+  },
+  content: {
+    padding: 16,
+    paddingBottom: 32,
+  },
+  centered: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#f5f6fa',
+    padding: 24,
+  },
+  loadingText: {
+    color: '#727887',
+    fontSize: 15,
+    marginTop: 12,
+  },
+  hero: {
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    borderColor: '#e3e7ef',
+    borderWidth: 1,
+    borderRadius: 20,
+    padding: 20,
+  },
+  name: {
+    color: '#1f2430',
+    fontSize: 30,
+    fontWeight: '800',
+    textTransform: 'capitalize',
+    marginTop: 4,
+  },
+  imageContainer: {
+    width: 190,
+    height: 190,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginVertical: 8,
+  },
+  imagePlaceholder: {
+    position: 'absolute',
+    width: 150,
+    height: 150,
+    borderRadius: 75,
+    backgroundColor: '#f0f1f5',
+  },
+  image: {
+    width: 190,
+    height: 190,
+  },
+  hiddenImage: {
+    opacity: 0,
+  },
+  types: {
+    flexDirection: 'row',
+    gap: 8,
+  },
+  type: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    backgroundColor: '#65718A',
+    borderRadius: 16,
+    overflow: 'hidden',
+    paddingHorizontal: 12,
+    paddingVertical: 7,
+  },
+  typeName: {
+    color: '#fff',
+    fontSize: 13,
+    fontWeight: '700',
+    textTransform: 'capitalize',
+  },
+  favoriteButton: {
+    alignItems: 'center',
+    alignSelf: 'stretch',
+    borderRadius: 12,
+    backgroundColor: '#e94560',
+    marginTop: 18,
+    padding: 14,
+  },
+  favoriteButtonActive: {
+    backgroundColor: '#fff',
+    borderColor: '#e94560',
+    borderWidth: 1,
+  },
+  favoriteButtonPressed: {
+    opacity: 0.7,
+  },
+  favoriteButtonText: {
+    color: '#fff',
+    fontSize: 15,
+    fontWeight: '700',
+  },
+  favoriteButtonTextActive: {
+    color: '#e94560',
+  },
+  offlineBanner: {
+    borderRadius: 10,
+    backgroundColor: '#fff4dc',
+    marginTop: 14,
+    padding: 12,
+  },
+  offlineText: {
+    color: '#765816',
+    fontSize: 13,
+    textAlign: 'center',
+  },
+  errorBanner: {
+    borderRadius: 10,
+    backgroundColor: '#ffebee',
+    marginTop: 14,
+    padding: 12,
+  },
+  errorText: {
+    color: '#a51f37',
+    fontSize: 14,
+    textAlign: 'center',
+  },
+  retryButton: {
+    borderRadius: 10,
+    backgroundColor: '#e94560',
+    marginTop: 16,
+    paddingHorizontal: 18,
+    paddingVertical: 10,
+  },
+  measurements: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    borderColor: '#e3e7ef',
+    borderWidth: 1,
+    borderRadius: 16,
+    marginTop: 14,
+    padding: 18,
+  },
+  measurement: {
+    alignItems: 'center',
+    gap: 4,
+  },
+  measurementValue: {
+    color: '#272b36',
+    fontSize: 18,
+    fontWeight: '700',
+  },
+  measurementLabel: {
+    color: '#8c91a0',
+    fontSize: 13,
+  },
+  measurementDivider: {
+    width: 1,
+    height: 36,
+    backgroundColor: '#eceef3',
+  },
+  section: {
+    backgroundColor: '#fff',
+    borderColor: '#e3e7ef',
+    borderWidth: 1,
+    borderRadius: 16,
+    marginTop: 14,
+    padding: 18,
+  },
+  sectionTitle: {
+    color: '#1f2430',
+    fontSize: 18,
+    fontWeight: '800',
+    marginBottom: 14,
+  },
+  ability: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingVertical: 8,
+  },
+  abilityName: {
+    color: '#4c5261',
+    fontSize: 15,
+    textTransform: 'capitalize',
+  },
+  hiddenAbility: {
+    color: '#8c91a0',
+    fontSize: 12,
+  },
+  stat: {
+    marginBottom: 12,
+  },
+  statHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 6,
+  },
+  statName: {
+    color: '#656b79',
+    fontSize: 13,
+    textTransform: 'capitalize',
+  },
+  statValue: {
+    color: '#272b36',
+    fontSize: 13,
+    fontWeight: '700',
+  },
+  statBar: {
+    height: 7,
+    borderRadius: 4,
+    backgroundColor: '#eceef3',
+    overflow: 'hidden',
+  },
+  statFill: {
+    height: '100%',
+    borderRadius: 4,
+    backgroundColor: '#e94560',
+  },
+});
