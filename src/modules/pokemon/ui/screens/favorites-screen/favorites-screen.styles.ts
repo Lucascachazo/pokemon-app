@@ -1,6 +1,5 @@
 import { StyleSheet } from 'react-native';
 
-// Estilos de la pantalla, su encabezado, las tarjetas y sus estados vacíos.
 export const styles = StyleSheet.create({
   screen: {
     flex: 1,

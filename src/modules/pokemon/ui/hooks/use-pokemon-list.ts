@@ -11,7 +11,6 @@ export const usePokemonList = () => {
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const [isOffline, setIsOffline] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
-  // Ref bloquea peticiones repetidas sin provocar un nuevo render.
   const isFetching = useRef(false);
 
   const loadPage = useCallback(

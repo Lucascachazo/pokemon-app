@@ -16,7 +16,7 @@ const pokeApi = create({
 });
 
 const PAGE_SIZE = 10;
-const NAME_INDEX_SIZE = 10000;
+const NAME_INDEX_SIZE = 1000;
 
 const getRequestError = (error: unknown): Error => {
   if (!isAxiosError(error)) {
